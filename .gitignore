@@ -11,3 +11,6 @@ dist/*
 
 # Archivos generados por PyInstaller
 *.spec
+
+#Archivo de configuración
+config_local.py

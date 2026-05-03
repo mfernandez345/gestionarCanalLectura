@@ -5,8 +5,12 @@ import requests
 # ------------------------------------
 # CONFIGURACIÓN DEL CANAL THINGSPEAK
 # ------------------------------------
-CHANNEL_ID = "3358232"
-READ_API_KEY = "LQB1DNT62JQ3U2LE"
+try:
+    from config_local import CHANNEL_ID, READ_API_KEY
+except ImportError:
+    CHANNEL_ID = "TU_CHANNEL_ID"
+    READ_API_KEY = "TU_READ_API_KEY"
+
 
 
 # ------------------------------------
