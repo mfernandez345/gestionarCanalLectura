@@ -26,14 +26,15 @@ Este módulo forma parte de un proyecto académico orientado a la monitorizació
 ---
 ## 🔧 Configuración del canal ThingSpeak
 
-Antes de ejecutar la aplicación, es necesario configurar los parámetros del canal IoT.  
+Antes de ejecutar la aplicación, es necesario configurar los parámetros del canal IoT. 
+Estos valores deben corresponder al canal ThingSpeak desde el cual se van a leer los datos.
+Por motivos de seguridad, no se incluyen credenciales reales en el repositorio.
 Edite el archivo `app.py` y sustituya los valores:
 ````
 CHANNEL_ID = "TU_CHANNEL_ID"
 READ_API_KEY = "TU_READ_API_KEY"
 ````
-Estos valores deben corresponder al canal ThingSpeak desde el cual se van a leer los datos.
-Por motivos de seguridad, no se incluyen credenciales reales en el repositorio.
+
 ---
 ## 🌐 Endpoints utilizados (HTTPS)
 
