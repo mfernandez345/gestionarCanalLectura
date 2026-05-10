@@ -7,7 +7,7 @@
 # Carpetas de PyInstaller (excepto el ejecutable)
 build/
 dist/*
-!dist/appLecturaCanal.exe
+!dist/appLecturaEscrituraCanal.exe
 
 # Archivos generados por PyInstaller
 *.spec
