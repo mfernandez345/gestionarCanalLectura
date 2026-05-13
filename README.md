@@ -145,7 +145,7 @@ Estos valores se asignan automáticamente a `field1`...`field5` del canal ThingS
 
 ### **1. Clonar el repositorio**
 ```
-git clone https://github.com/mfernandez345/gestionarLecturaEscrituraCanal
+git clone https://github.com/mfernandez345/gestionarLecturaEscrituraCanal.git
 cd gestionarLecturaEscrituraCanal
 ```
 ### **2. Instalar dependencias**
